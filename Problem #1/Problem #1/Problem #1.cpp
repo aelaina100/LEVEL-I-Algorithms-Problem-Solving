@@ -1,0 +1,25 @@
+// Level 1- Algorithms & Problem-Solving Series.cpp 
+
+#include <iostream>
+using namespace std;
+
+/*
+Problem #1
+
+Write a program to print your name on screen.
+
+*/
+
+void PrintName(const string &name) // passing by constant reference.
+{
+	cout << "\n" << name << "\n";
+}
+
+int main()
+{
+	PrintName("Ahmad El-Aina");   // Divide& conquer فَرِّقْ تَسُدْ
+
+	return 0;
+}
+
+
