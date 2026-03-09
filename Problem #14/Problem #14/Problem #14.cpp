@@ -66,7 +66,7 @@ int main()
     // Num1 & Num2 are now initialized.
 
     PrintNumbers(Num1, Num2);
-    SwapNumbers(Num1, Num2); // reverse the two numbers in main ! // HAS to be a procedure as we're SWAPPING two numbers and not returning one value.
+    SwapNumbers(Num1, Num2); // SWAP the two numbers in main ! // HAS to be a procedure as we're SWAPPING two numbers and not returning one value.
     // Now,  Num1 & Num2  values IN MAIN() are reversed.
     PrintNumbers(Num1, Num2);
     
